@@ -18,8 +18,8 @@ namespace DataPemilihCrawler
         static string GetListOfKelurahanUrl = "https://infopemilu.kpu.go.id/pilkada2018/pemilih/dpt/1/{{namapropinsi}}/{{namakabupaten}}/{{namakecamatan}}/listDps.json";
         static string GetListOfTpsUrl = "https://infopemilu.kpu.go.id/pilkada2018/pemilih/dpt/1/{{namapropinsi}}/{{namakabupaten}}/{{namakecamatan}}/{{namakelurahan}}/listDps.json";
         static string GetListOfPemilihUrl = "https://infopemilu.kpu.go.id/pilkada2018/pemilih/dpt/1/{{namapropinsi}}/{{namakabupaten}}/{{namakecamatan}}/{{namakelurahan}}/{{tps}}/listDps.json";
-        static string FileToSave = "/Users/miftahul.huda/Projects/DataPemilihCrawler/data2017/voters.{namapropinsi}.{namakabupaten}.{namakecamatan}.{namakelurahan}.{tps}.csv";
-        //static string FileToSave = "gs://huda-playground.appspot.com/voter-data/voters.{namapropinsi}.{namakabupaten}.{namakecamatan}.{namakelurahan}.{tps}.csv";
+        static string FileToSave = "/Users/Just/Projects/DataPemilihCrawler/data2017/voters.{namapropinsi}.{namakabupaten}.{namakecamatan}.{namakelurahan}.{tps}.csv";
+        //static string FileToSave = "gs://just-playground.appspot.com/voter-data/voters.{namapropinsi}.{namakabupaten}.{namakecamatan}.{namakelurahan}.{tps}.csv";
 
 
         static void Main(string[] args)
