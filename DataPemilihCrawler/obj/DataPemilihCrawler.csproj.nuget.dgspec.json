@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/miftahul.huda/Projects/DataPemilihCrawler/DataPemilihCrawler/DataPemilihCrawler.csproj": {}
+    "/Users/Just/Projects/DataPemilihCrawler/DataPemilihCrawler/DataPemilihCrawler.csproj": {}
   },
   "projects": {
-    "/Users/miftahul.huda/Projects/DataPemilihCrawler/DataPemilihCrawler/DataPemilihCrawler.csproj": {
+    "/Users/Just/Projects/DataPemilihCrawler/DataPemilihCrawler/DataPemilihCrawler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/miftahul.huda/Projects/DataPemilihCrawler/DataPemilihCrawler/DataPemilihCrawler.csproj",
+        "projectUniqueName": "/Users/Just/Projects/DataPemilihCrawler/DataPemilihCrawler/DataPemilihCrawler.csproj",
         "projectName": "DataPemilihCrawler",
-        "projectPath": "/Users/miftahul.huda/Projects/DataPemilihCrawler/DataPemilihCrawler/DataPemilihCrawler.csproj",
-        "packagesPath": "/Users/miftahul.huda/.nuget/packages/",
-        "outputPath": "/Users/miftahul.huda/Projects/DataPemilihCrawler/DataPemilihCrawler/obj/",
+        "projectPath": "/Users/Just/Projects/DataPemilihCrawler/DataPemilihCrawler/DataPemilihCrawler.csproj",
+        "packagesPath": "/Users/Just/.nuget/packages/",
+        "outputPath": "/Users/Just/Projects/DataPemilihCrawler/DataPemilihCrawler/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/miftahul.huda/.config/NuGet/NuGet.Config"
+          "/Users/Just/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
