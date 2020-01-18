@@ -12,12 +12,12 @@ namespace DataPemilihCrawler
 {
     class Program
     {
-        static string GetListOfProvinceUrl = "https://pilkada2017.kpu.go.id/pemilih/dpt/1/listNasional.json";
-        static string GetListOfKabupatenUrl = "https://pilkada2017.kpu.go.id/pemilih/dpt/1/{{namapropinsi}}/listDps.json";
-        static string GetListOfKecamatanUrl = "https://pilkada2017.kpu.go.id/pemilih/dpt/1/{{namapropinsi}}/{{namakabupaten}}/listDps.json";
-        static string GetListOfKelurahanUrl = "https://pilkada2017.kpu.go.id/pemilih/dpt/1/{{namapropinsi}}/{{namakabupaten}}/{{namakecamatan}}/listDps.json";
-        static string GetListOfTpsUrl = "https://pilkada2017.kpu.go.id/pemilih/dpt/1/{{namapropinsi}}/{{namakabupaten}}/{{namakecamatan}}/{{namakelurahan}}/listDps.json";
-        static string GetListOfPemilihUrl = "https://pilkada2017.kpu.go.id/pemilih/dpt/1/{{namapropinsi}}/{{namakabupaten}}/{{namakecamatan}}/{{namakelurahan}}/{{tps}}/listDps.json";
+        static string GetListOfProvinceUrl = "https://infopemilu.kpu.go.id/pilkada2018/pemilih/dpt/1/listNasional.json";
+        static string GetListOfKabupatenUrl = "https://infopemilu.kpu.go.id/pilkada2018/pemilih/dpt/1/{{namapropinsi}}/listDps.json";
+        static string GetListOfKecamatanUrl = "https://infopemilu.kpu.go.id/pilkada2018/pemilih/dpt/1/{{namapropinsi}}/{{namakabupaten}}/listDps.json";
+        static string GetListOfKelurahanUrl = "https://infopemilu.kpu.go.id/pilkada2018/pemilih/dpt/1/{{namapropinsi}}/{{namakabupaten}}/{{namakecamatan}}/listDps.json";
+        static string GetListOfTpsUrl = "https://infopemilu.kpu.go.id/pilkada2018/pemilih/dpt/1/{{namapropinsi}}/{{namakabupaten}}/{{namakecamatan}}/{{namakelurahan}}/listDps.json";
+        static string GetListOfPemilihUrl = "https://infopemilu.kpu.go.id/pilkada2018/pemilih/dpt/1/{{namapropinsi}}/{{namakabupaten}}/{{namakecamatan}}/{{namakelurahan}}/{{tps}}/listDps.json";
         static string FileToSave = "/Users/miftahul.huda/Projects/DataPemilihCrawler/data2017/voters.{namapropinsi}.{namakabupaten}.{namakecamatan}.{namakelurahan}.{tps}.csv";
         //static string FileToSave = "gs://huda-playground.appspot.com/voter-data/voters.{namapropinsi}.{namakabupaten}.{namakecamatan}.{namakelurahan}.{tps}.csv";
 
